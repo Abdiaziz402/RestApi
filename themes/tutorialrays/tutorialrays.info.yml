@@ -1,0 +1,17 @@
+name: Tutorial Rays
+description: This is demo theme for lerning
+type: theme
+base theme : false
+core_version_requirement: ^8 || ^9 || ^10
+version: 1.0
+libraries:
+  - tutorialrays/global-styling
+regions: 
+  header: 'header'
+  menu: 'main menu'
+  content: 'main content'
+  sidebar: 'sidebar'
+  footer: 'footer'
+  latest_movies: 'Latest Movies'
+
+ 

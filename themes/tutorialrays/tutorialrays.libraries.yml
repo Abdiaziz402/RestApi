@@ -1,0 +1,15 @@
+global-styling:
+    css:
+        theme:
+          css/bootstrap.css: {}
+          css/style.css: {}
+          css/print.css: {}
+     
+    js:
+      js/bootstrap.js: {}
+      js/script.js: {}
+    dependencies:
+      - core/jquery
+
+   
+   

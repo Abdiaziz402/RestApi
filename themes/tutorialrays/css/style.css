@@ -1,0 +1,100 @@
+body{
+	margin:0;
+	overflow-x: hidden;
+}
+.container{
+	width:1200px;
+}
+a, a:active, a:hover, a:visited{
+	text-decoration:none;
+	color:#000;
+}
+ul, ol {
+    list-style: none;
+}
+#header{
+    background:#13171c;
+	color:#fff;
+	height: 300px;
+	background: url(../images/bgimage1.jpg) no-repeat center center;
+}
+.site-logo{
+	width:100px;
+}
+.site-logo img{
+	width:100%;
+}
+#content{
+	position:relative;
+	width:100%;
+	margin:auto;
+	padding-bottom:70px;
+	padding-top:20px;
+}
+footer{
+	height:150px;
+	width:100%;
+	background:#13171c;
+	color:#fff;
+	padding: 20px;
+	position:relative;
+	bottom:0px;
+	margin-top: 70px;
+
+}
+#block-tutorialrays-branding a{
+	font-size:20px;
+	color:#fff;
+}
+.heading{
+	color:#fff;
+	font-size: 30px;
+	width: 100%;
+	text-align: center;
+	padding-top:100px;
+	
+}
+.menu{
+	float:right;
+}
+.menu ul li a {
+    color: #fff;
+}
+.menu ul li {
+    display: inline;
+    padding-right: 20px;
+    font-size: 17px;
+}
+.movies-body {
+    width: 100%;
+    background: #f4f4f4;
+    padding: 10px;
+    border-radius: 4px;
+}
+.movie-poster img {
+    width: 573px;
+    height: 216px;
+}
+.layout-sidebar-first {
+    overflow-wrap: break-word;
+    padding: 10px;
+}
+/*#block-tutorialrays-main-menu ul{
+	width:50%;
+	display:inline-block;
+}
+#block-tutorialrays-main-menu ul li{
+	float:left;
+	padding:5px;
+	font-size:20px;
+	color:#fff;
+	position: relative;
+	text-align:center;
+	text-decoration:none;
+	border:1px solid #fff;
+	background: #fff;
+}
+#block-tutorialrays-main-menu ul li a {
+    color: #181717;
+    text-decoration: none;
+}*/

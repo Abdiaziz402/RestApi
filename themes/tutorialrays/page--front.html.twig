@@ -1,0 +1,35 @@
+
+<html>
+<head>
+<meta charset="utf-8">
+<title></title>
+</head>
+<body>
+{% include directory ~ '/partial/header.html.twig' %}
+    <div class="container">
+		<main class="main">
+		 	 <div class="container">
+		   		 <div class="row">
+		         <div class="col-xs-8">
+		           <div id="content">
+		           	This is the modified page
+					{{ page.content }}
+				</div>
+		        </div>
+		        <div class="col-xs-4">
+		            	{% if page.sidebar %}
+				  <div class="layout-sidebar-first" role="complementary">
+		       			 {{ page.sidebar }}
+		       			  {{ page.latest_movies }}
+		      	  </div>
+				{% endif %}
+		        </div>
+		    	</div>
+			</div>
+
+		</main>
+	</div>
+	{% include directory ~ '/partial/footers.html.twig' %}
+</body>
+</html>
+
